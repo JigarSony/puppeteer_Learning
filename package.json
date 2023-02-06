@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "Automation software testing with Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --timeout=30000 ./tests"
+  },
+  "keywords": [
+    "Pupeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "Jig Sony",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1",
+    "puppeteer": "^19.1.0"
+  }
+}
